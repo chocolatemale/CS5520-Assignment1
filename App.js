@@ -16,7 +16,6 @@ const App = () => {
   const handleSignUp = (enteredEmail, enteredPhone) => {
     setEmail(enteredEmail);
     setPhone(enteredPhone);
-    // Perform validation and navigate to the next screen if valid
     if (validateEmail(enteredEmail) && validatePhoneNumber(enteredPhone)) {
       setCurrentScreen('confirm');
     }

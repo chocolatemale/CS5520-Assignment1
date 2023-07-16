@@ -1,4 +1,3 @@
-// Card.js
 import React from 'react';
 import { View, Platform, StyleSheet } from 'react-native';
 import colors from '../colors';
